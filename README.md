@@ -9,11 +9,11 @@ Lightweight CLI system monitor — lightweight replacement for htop + psensors.
 
 ## What it shows
 
-- **CPU** — per-core usage bars with color coding + load average
-- **RAM & SWAP** — usage bars with GiB values
-- **Disks** — usage bars for all real mountpoints
-- **Temperatures** — CPU, PCH, Wi-Fi chip and others as bars
-- **Wi-Fi** — live download/upload speed in the header
+- **CPU** — per-core usage bars with color coding (2-column on wide terminals) + average + load average (1/5/15 min)
+- **RAM & SWAP** — usage bars with used/total in GiB and percentage
+- **Disks** — usage bars for all real mountpoints (skips tmpfs, snap, /boot)
+- **Temperatures** — CPU package (full-width bar) + per-core bars; other detected sensors
+- **Wi-Fi** — live ↓/↑ speed shown in the header
 
 All panels update live. No process list — that's why it's lighter than htop.
 
