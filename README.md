@@ -7,6 +7,8 @@ Lightweight CLI system monitor — lightweight replacement for htop + psensors.
 [![License](https://img.shields.io/badge/license-MIT-yellow)](https://opensource.org/license/MIT)
 [![Stars](https://img.shields.io/github/stars/Luquas95/Live-M?style=social)](https://github.com/Luquas95/Live-M)
 
+![Screenshot of Live-M running in a terminal (fake demo data)](docs/screenshot.png)
+
 ## What it shows
 
 - **CPU** — per-core usage bars with color coding (2-column on wide terminals) + average + load average (1/5/15 min)
